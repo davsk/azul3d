@@ -4,6 +4,33 @@ azul3d
 Package azul3d is a test and demo of azul3d.org and qml.
 The graphic primitives, the Azul3d glf/obects, the qmltypes defined in go, and/or the qml files may be used in your program by importing subpackages.
 
+Overview
+--------
+
+The following exports are available:
+ * mesh
+ ** Cube
+ ** Cone
+ ** Dice
+ ** Sphere
+ * object
+ ** Cube
+ ** Cone
+ ** Dice
+ ** DiceWestern
+ ** DiceEastern
+ ** Sphere
+ ** Earth
+ ** Moon
+ ** Mars
+ * qmltype
+ ** GoRect
+ ** GoCube
+ ** GoDice
+ ** GoSolarSystem
+
+ In addition, engine can be used to run qml files bundled with azul3d
+
 Installation
 ------------
 
@@ -13,6 +40,7 @@ This package uses:
  * gopkg.in/cookieo9/resources-go.v2 allows file resources in the package to be accessed by the package. Instructions for embedding zipfiles to create a standalone deployment are at [https://github.com/cookieo9/resources-go/tree/v2](https://github.com/cookieo9/resources-go/tree/v2)
 
 We recommend that you use:
+
     $ go get gopkg.in/azul3d.v1
 
 Usage Examples
@@ -51,3 +79,8 @@ Documentation
 -------------
 
 For detailed API documentation see [http://godoc.org/gopkg.in/azul3d.v1](http://godoc.org/gopkg.in/azul3d.v1)
+
+Inspiration
+-----------
+
+The inspiration for this package came from a desire to support and promote the Azul3d.org graphics engine.
