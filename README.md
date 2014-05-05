@@ -19,14 +19,17 @@ Usage Examples
 --------------
 
 for OpenGL mesh use:
+	
 	import "gopkg.in/azul3d.v1/mesh"
 	cube := mesh.Cube(1.0)
 
 for Azul3d gfx/object use:
+	
 	import "gopkg.in/azul3d.v1/object"
 	cube := object.Cube(1.0)
 
 for QML file use:
+	
 	import "gopkg.in/qml.v0"
 	import "gopkg.in/azul3d.v1/qmltype"
 	qml.RegisterTypes("GoExtensions", 1, 0, []qml.TypeSpec{{
@@ -34,13 +37,15 @@ for QML file use:
 	}})	
 
 for secondary window use:
+	
 	import "gopkg.in/azul3d.v1/engine"
 	engine.Start()
 	engine.Run("cube.qml")
 
 for the test demo executable use:
-    $ go install gopkg.in/azul3d.v1
-    $ azul3d
+    
+    $ go install gopkg.in/azul3d.v1/atestdemo
+    $ atestdemo
 
 Documentation
 -------------
