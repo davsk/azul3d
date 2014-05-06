@@ -8,28 +8,38 @@ Overview
 --------
 
 The following exports are available:
- * mesh
- ** Cube
- ** Cone
- ** Dice
- ** Sphere
- * object
- ** Cube
- ** Cone
- ** Dice
- ** DiceWestern
- ** DiceEastern
- ** Sphere
- ** Earth
- ** Moon
- ** Mars
- * qmltype
- ** GoRect
- ** GoCube
- ** GoDice
- ** GoSolarSystem
 
- In addition, engine can be used to run qml files bundled with azul3d
+mesh
+
+ * Cube
+ * Cone
+ * Dice
+ * Sphere
+
+object
+
+ * Cube
+ * Cone
+ * Dice
+ * DiceWestern
+ * DiceEastern
+ * Sphere
+ * Earth
+ * Moon
+ * Mars
+
+qmltype
+
+ * GoRect
+ * GoCube
+ * GoDice
+ * GoSolar
+
+ In addition, engine can be used to run qml files bundled with azul3d such as :
+
+  * cube.qml
+  * dice.qml
+  * solar.qml
 
 Installation
 ------------
